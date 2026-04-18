@@ -1,0 +1,11 @@
+python amazon18_data_process.py \
+    --dataset Industrial_and_Scientific \
+    --user_k 5 \
+    --item_k 5 \
+    --st_year 2017 \
+    --st_month 10 \
+    --ed_year 2018 \
+    --ed_month 11 \
+    --output_path ./Amazon18 \
+    --metadata_file ./Amazon18/Industrial_and_Scientific/meta_data/meta_Industrial_and_Scientific.json \
+    --reviews_file ./Amazon18/Industrial_and_Scientific/meta_data/Industrial_and_Scientific.json
