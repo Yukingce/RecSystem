@@ -1,3 +1,6 @@
 .vscode
 */__pycache__
 __pycache__
+
+# Ignore large training checkpoints under output/rq
+output/rq/**/*.pth

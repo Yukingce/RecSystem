@@ -65,7 +65,7 @@ def get_collision_item(all_indices_str):
     return collision_item_groups
 
 dataset = "Industrial_and_Scientific"
-ckpt_path = "/media/rxjqr/wy/MiniOneRec/rq/output/Industrial_and_Scientific/Apr-10-2026_17-11-15/best_loss_model.pth"
+ckpt_path = "/media/rxjqr/wy/MiniOneRec/rq/output/Industrial_and_Scientific_rqvae/Apr-19-2026_14-52-32_3_64/best_collision_model.pth"
 output_dir = f"../data/Amazon18/{dataset}/"
 output_file = f"{dataset}.index.json"
 output_file = os.path.join(output_dir,output_file)

@@ -1,0 +1,13 @@
+Code Statistics:
+  Total items: 3106
+  Level 1: unique codes = 256
+  Level 2: unique codes = 256
+  Level 3: unique codes = 256
+  Unique full-paths: 2846
+  Collision rate: 0.0837
+
+
+- Original data shape: (3106, 2560)
+- Number of levels: 3
+- K values per level: [256, 256, 256]
+- Final reconstruction error (MSE): 0.283988

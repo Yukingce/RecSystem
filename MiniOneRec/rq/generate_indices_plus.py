@@ -66,7 +66,7 @@ def load_model(args, dim):
         raise FileNotFoundError(f"Checkpoint not found at {args.ckpt_path}")
     
     print(f"Loading checkpoint: {args.ckpt_path}")
-    checkpoint = torch.load(args.ckpt_path, map_location=args.device)
+    checkpoint = torch.load(args.ckpt_path, map_location=args.device, weights_only=False)
     
     if 'model_state_dict' in checkpoint:
         state_dict = checkpoint['model_state_dict']
